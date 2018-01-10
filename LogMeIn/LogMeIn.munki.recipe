@@ -30,6 +30,12 @@
             <string>%NAME%</string>
             <key>unattended_install</key>
             <true/>
+            <key>uninstall_script</key>
+            <string>#!/bin/sh
+
+sudo /Library/Application\ Support/LogMeIn/uninstaller.sh
+
+exit 0</string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
