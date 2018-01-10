@@ -28,6 +28,19 @@
             <string>LogMeIn</string>
             <key>name</key>
             <string>%NAME%</string>
+            <key>installs</key>
+            <array>
+                <dict>
+                    <key>CFBundleVersion</key>
+                    <string>4.1.8801</string>
+                    <key>path</key>
+                    <string>/Library/Application\ Support/LogMeIn/bin/LogMeIn.app</string>
+                    <key>type</key>
+                    <string>application</string>
+                    <key>version_comparison_key</key>
+                    <string>CFBundleVersion</string>
+                </dict>
+            </array>
             <key>unattended_install</key>
             <true/>
             <key>uninstall_script</key>
