@@ -32,21 +32,12 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>FileFinder</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pattern</key>
-                <string>%RECIPE_CACHE_DIR%/Scripts/LogMeIn*.app</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>FileCreator</string>
             <key>Arguments</key>
             <dict>
                 <key>file_content</key>
                 <string>#!/bin/sh
-FILE="%found_filename%"
+FILE="LogMeIn*.app"
 
 xattr -w com.logmein.deployid %DEPLOY_ID% "$FILE"
 
